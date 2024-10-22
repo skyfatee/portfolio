@@ -154,6 +154,8 @@
     }
 
     .resume {
+        padding-top: 110px;
+
         &__subtitle {
             font-size: 32px;
             line-height: 53px;
@@ -187,14 +189,14 @@
         }
 
         &__ratings {
-            padding-top: 115px;
+            padding-top: 110px;
             grid-template-columns: repeat(2, 270px);
             column-gap: 35px;
         }
     }
 
     .portfolio {
-        padding-top: 115px;
+        padding-top: 110px;
 
         .title__section-subtitle {
             font-size: 32px;
@@ -209,7 +211,7 @@
             display: flex;
             flex-wrap: wrap;
             margin-top: 55px;
-            gap: 10px;
+            gap: 30px;
             grid-template: repeat(2, 180px) / repeat(4, 180px);
 
             img {
@@ -221,7 +223,7 @@
     }
 
     .price {
-        padding: 115px 45px 0 45px;
+        padding: 110px 30px 0 30px;
 
         &__wrapper {
             grid-template-columns: repeat(1, 366px);
@@ -230,6 +232,8 @@
     }
 
     .contacts {
+        padding: 110px 0 80px 0;
+
         &__subtitle {
             font-size: 32px;
             line-height: 48px;
@@ -294,7 +298,7 @@
     }
 
     .resume {
-        padding-top: 110px;
+        padding-top: 100px;
 
         &__subtitle {
             font-size: 30px;
@@ -327,7 +331,7 @@
     }
 
     .skills {
-        padding-top: 80px;
+        padding-top: 90px;
 
         .title__section-subtitle {
             font-size: 30px;
@@ -340,12 +344,12 @@
 
         &__ratings {
             grid-template-columns: repeat(2, 240px);
-            padding-top: 110px;
+            padding-top: 100px;
         }
     }
 
     .portfolio {
-        padding-top: 110px;
+        padding-top: 100px;
 
         .title__section-subtitle {
             font-size: 30px;
@@ -359,7 +363,7 @@
         &__wrapper {
             display: flex;
             flex-wrap: wrap;
-            gap: 15px;
+            gap: 40px;
             margin-top: 50px;
 
             img {
@@ -370,7 +374,7 @@
     }
 
     .price {
-        padding: 110px 30px 0 30px;
+        padding: 100px 25px 0 25px;
 
         &__wrapper {
             margin-top: 50px;
@@ -385,7 +389,7 @@
     }
 
     .contacts {
-        padding: 110px 0 90px 0;
+        padding: 100px 0 70px 0;
 
         &__subtitle {
             font-size: 30px;
@@ -480,7 +484,7 @@
     }
 
     .resume {
-        padding-top: 105px;
+        padding-top: 90px;
 
         &__subtitle {
             font-size: 28px;
@@ -520,7 +524,7 @@
     }
 
     .skills {
-        padding-top: 50px;
+        padding-top: 80px;
 
         .title__section-subtitle {
             font-size: 28px;
@@ -542,13 +546,13 @@
         }
 
         &__ratings {
-            padding-top: 100px;
+            padding-top: 90px;
             grid-template-columns: repeat(1, 270px);
         }
     }
 
     .portfolio {
-        padding-top: 100px;
+        padding-top: 90px;
 
         .title__section-subtitle {
             font-size: 28px;
@@ -572,7 +576,7 @@
     }
 
     .price {
-        padding: 100px 10px 0 10px;
+        padding: 90px 10px 0 10px;
 
         .divider {
             margin: 26px auto 0 auto;
@@ -585,7 +589,7 @@
     }
 
     .contacts {
-        padding: 100px 0 90px 0;
+        padding: 90px 0 60px 0;
 
         &__subtitle {
             font-size: 28px;
