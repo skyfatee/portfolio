@@ -14,6 +14,8 @@
     }
 
     .about {
+        padding-top: 115px;
+
         &__wrapper {
             grid-template-columns: 260px 570px;
             column-gap: 40px;
@@ -36,6 +38,8 @@
     }
 
     .resume {
+        padding-top: 115px;
+
         &__wrapper {
             grid-template-columns: repeat(2, 350px);
             column-gap: 125px;
@@ -45,6 +49,8 @@
 
 
     .skills {
+        padding-top: 115px;
+
         &__items {
             grid-template: repeat(2, minmax(270px, auto)) / repeat(3, 270px);
             justify-content: center;
@@ -53,12 +59,16 @@
         }
 
         &__ratings {
+            padding-top: 120px;
             grid-template-columns: repeat(2, 350px);
-            justify-content: space-evenly;
+            justify-content: space-around;
+            ;
         }
     }
 
     .portfolio {
+        padding-top: 115px;
+
         &__wrapper {
             grid-template: repeat(2, 220px) / repeat(4, 220px);
             gap: 5px;
@@ -67,10 +77,11 @@
     }
 
     .price {
-        padding: 120px 20px 0 20px;
+        padding: 115px 45px 0 45px;
     }
 
     .contacts {
+        padding: 115px 0 90px 0;
 
         &__subtitle {
             font-size: 32px;
@@ -106,7 +117,7 @@
     }
 
     .about {
-        padding-top: 120px;
+        padding-top: 110px;
 
         &__wrapper {
             grid-template-columns: 1fr;
@@ -159,6 +170,8 @@
     }
 
     .skills {
+        padding-top: 100px;
+
         .title__section-subtitle {
             font-size: 32px;
             line-height: 53px;
@@ -174,13 +187,15 @@
         }
 
         &__ratings {
-            padding-top: 120px;
+            padding-top: 115px;
             grid-template-columns: repeat(2, 270px);
             column-gap: 35px;
         }
     }
 
     .portfolio {
+        padding-top: 115px;
+
         .title__section-subtitle {
             font-size: 32px;
             line-height: 53px;
@@ -200,11 +215,14 @@
             img {
                 width: 300px;
                 height: 300px;
+                object-fit: cover;
             }
         }
     }
 
     .price {
+        padding: 115px 45px 0 45px;
+
         &__wrapper {
             grid-template-columns: repeat(1, 366px);
             margin-top: 55px;
@@ -250,6 +268,8 @@
     }
 
     .about {
+        padding-top: 100px;
+
         &__subtitle {
             font-size: 30px;
         }
@@ -274,6 +294,8 @@
     }
 
     .resume {
+        padding-top: 110px;
+
         &__subtitle {
             font-size: 30px;
             line-height: 48px;
@@ -305,6 +327,8 @@
     }
 
     .skills {
+        padding-top: 80px;
+
         .title__section-subtitle {
             font-size: 30px;
             line-height: 48px;
@@ -316,11 +340,13 @@
 
         &__ratings {
             grid-template-columns: repeat(2, 240px);
-            padding-top: 115px;
+            padding-top: 110px;
         }
     }
 
     .portfolio {
+        padding-top: 110px;
+
         .title__section-subtitle {
             font-size: 30px;
             line-height: 48px;
@@ -339,13 +365,12 @@
             img {
                 width: 250px;
                 height: 250px;
-                object-fit: cover;
             }
         }
     }
 
     .price {
-        padding: 115px 20px 0 20px;
+        padding: 110px 30px 0 30px;
 
         &__wrapper {
             margin-top: 50px;
@@ -360,6 +385,8 @@
     }
 
     .contacts {
+        padding: 110px 0 90px 0;
+
         &__subtitle {
             font-size: 30px;
             line-height: 48px;
@@ -453,6 +480,8 @@
     }
 
     .resume {
+        padding-top: 105px;
+
         &__subtitle {
             font-size: 28px;
             line-height: 36px;
@@ -491,6 +520,8 @@
     }
 
     .skills {
+        padding-top: 50px;
+
         .title__section-subtitle {
             font-size: 28px;
             margin-top: 9px;
@@ -511,11 +542,14 @@
         }
 
         &__ratings {
+            padding-top: 100px;
             grid-template-columns: repeat(1, 270px);
         }
     }
 
     .portfolio {
+        padding-top: 100px;
+
         .title__section-subtitle {
             font-size: 28px;
             line-height: 45px;
@@ -533,24 +567,26 @@
             img {
                 width: 300px;
                 height: 300px;
-                object-fit: cover;
             }
         }
     }
 
     .price {
-        padding: 110px 10px 0 10px;
+        padding: 100px 10px 0 10px;
 
         .divider {
             margin: 26px auto 0 auto;
         }
 
         &__wrapper {
+            margin-top: 45px;
             grid-template-columns: repeat(1, 266px);
         }
     }
 
     .contacts {
+        padding: 100px 0 90px 0;
+
         &__subtitle {
             font-size: 28px;
             line-height: 44px;
