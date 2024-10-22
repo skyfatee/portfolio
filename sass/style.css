@@ -983,6 +983,9 @@ html {
   .about__skills-item {
     grid-template-columns: 40px 230px;
   }
+  .resume {
+    padding-top: 110px;
+  }
   .resume__subtitle {
     font-size: 32px;
     line-height: 53px;
@@ -1010,13 +1013,13 @@ html {
     gap: 10.5px;
   }
   .skills__ratings {
-    padding-top: 115px;
+    padding-top: 110px;
     grid-template-columns: repeat(2, 270px);
     -moz-column-gap: 35px;
          column-gap: 35px;
   }
   .portfolio {
-    padding-top: 115px;
+    padding-top: 110px;
   }
   .portfolio .title__section-subtitle {
     font-size: 32px;
@@ -1029,7 +1032,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     margin-top: 55px;
-    gap: 10px;
+    gap: 30px;
     grid-template: repeat(2, 180px)/repeat(4, 180px);
   }
   .portfolio__wrapper img {
@@ -1039,11 +1042,14 @@ html {
        object-fit: cover;
   }
   .price {
-    padding: 115px 45px 0 45px;
+    padding: 110px 30px 0 30px;
   }
   .price__wrapper {
     grid-template-columns: repeat(1, 366px);
     margin-top: 55px;
+  }
+  .contacts {
+    padding: 110px 0 80px 0;
   }
   .contacts__subtitle {
     font-size: 32px;
@@ -1090,7 +1096,7 @@ html {
     grid-template: repeat(1, minmax(115px, auto))/repeat(1, 300px);
   }
   .resume {
-    padding-top: 110px;
+    padding-top: 100px;
   }
   .resume__subtitle {
     font-size: 30px;
@@ -1112,7 +1118,7 @@ html {
     top: 62px;
   }
   .skills {
-    padding-top: 80px;
+    padding-top: 90px;
   }
   .skills .title__section-subtitle {
     font-size: 30px;
@@ -1123,10 +1129,10 @@ html {
   }
   .skills__ratings {
     grid-template-columns: repeat(2, 240px);
-    padding-top: 110px;
+    padding-top: 100px;
   }
   .portfolio {
-    padding-top: 110px;
+    padding-top: 100px;
   }
   .portfolio .title__section-subtitle {
     font-size: 30px;
@@ -1138,7 +1144,7 @@ html {
   .portfolio__wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 40px;
     margin-top: 50px;
   }
   .portfolio__wrapper img {
@@ -1146,7 +1152,7 @@ html {
     height: 250px;
   }
   .price {
-    padding: 110px 30px 0 30px;
+    padding: 100px 25px 0 25px;
   }
   .price__wrapper {
     margin-top: 50px;
@@ -1156,7 +1162,7 @@ html {
     left: -8.3%;
   }
   .contacts {
-    padding: 110px 0 90px 0;
+    padding: 100px 0 70px 0;
   }
   .contacts__subtitle {
     font-size: 30px;
@@ -1226,7 +1232,7 @@ html {
     grid-template-columns: 40px 177px;
   }
   .resume {
-    padding-top: 105px;
+    padding-top: 90px;
   }
   .resume__subtitle {
     font-size: 28px;
@@ -1255,7 +1261,7 @@ html {
     top: 40px;
   }
   .skills {
-    padding-top: 50px;
+    padding-top: 80px;
   }
   .skills .title__section-subtitle {
     font-size: 28px;
@@ -1273,11 +1279,11 @@ html {
     padding: 25px 25px 25px 25px;
   }
   .skills__ratings {
-    padding-top: 100px;
+    padding-top: 90px;
     grid-template-columns: repeat(1, 270px);
   }
   .portfolio {
-    padding-top: 100px;
+    padding-top: 90px;
   }
   .portfolio .title__section-subtitle {
     font-size: 28px;
@@ -1296,7 +1302,7 @@ html {
     height: 300px;
   }
   .price {
-    padding: 100px 10px 0 10px;
+    padding: 90px 10px 0 10px;
   }
   .price .divider {
     margin: 26px auto 0 auto;
@@ -1306,7 +1312,7 @@ html {
     grid-template-columns: repeat(1, 266px);
   }
   .contacts {
-    padding: 100px 0 90px 0;
+    padding: 90px 0 60px 0;
   }
   .contacts__subtitle {
     font-size: 28px;
