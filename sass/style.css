@@ -872,6 +872,9 @@ html {
   .promo {
     padding: 205px 0 0 30px;
   }
+  .about {
+    padding-top: 115px;
+  }
   .about__wrapper {
     grid-template-columns: 260px 570px;
     -moz-column-gap: 40px;
@@ -887,11 +890,17 @@ html {
   .about__skills-text {
     margin-top: 6px;
   }
+  .resume {
+    padding-top: 115px;
+  }
   .resume__wrapper {
     grid-template-columns: repeat(2, 350px);
     -moz-column-gap: 125px;
          column-gap: 125px;
     justify-content: center;
+  }
+  .skills {
+    padding-top: 115px;
   }
   .skills__items {
     grid-template: repeat(2, minmax(270px, auto))/repeat(3, 270px);
@@ -900,8 +909,12 @@ html {
     gap: 12.5px;
   }
   .skills__ratings {
+    padding-top: 120px;
     grid-template-columns: repeat(2, 350px);
-    justify-content: space-evenly;
+    justify-content: space-around;
+  }
+  .portfolio {
+    padding-top: 115px;
   }
   .portfolio__wrapper {
     grid-template: repeat(2, 220px)/repeat(4, 220px);
@@ -909,7 +922,10 @@ html {
     justify-content: center;
   }
   .price {
-    padding: 120px 20px 0 20px;
+    padding: 115px 45px 0 45px;
+  }
+  .contacts {
+    padding: 115px 0 90px 0;
   }
   .contacts__subtitle {
     font-size: 32px;
@@ -937,7 +953,7 @@ html {
     line-height: 53px;
   }
   .about {
-    padding-top: 120px;
+    padding-top: 110px;
   }
   .about__wrapper {
     grid-template-columns: 1fr;
@@ -979,6 +995,9 @@ html {
   .resume__column {
     margin-bottom: 20px;
   }
+  .skills {
+    padding-top: 100px;
+  }
   .skills .title__section-subtitle {
     font-size: 32px;
     line-height: 53px;
@@ -991,10 +1010,13 @@ html {
     gap: 10.5px;
   }
   .skills__ratings {
-    padding-top: 120px;
+    padding-top: 115px;
     grid-template-columns: repeat(2, 270px);
     -moz-column-gap: 35px;
          column-gap: 35px;
+  }
+  .portfolio {
+    padding-top: 115px;
   }
   .portfolio .title__section-subtitle {
     font-size: 32px;
@@ -1013,6 +1035,11 @@ html {
   .portfolio__wrapper img {
     width: 300px;
     height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .price {
+    padding: 115px 45px 0 45px;
   }
   .price__wrapper {
     grid-template-columns: repeat(1, 366px);
@@ -1043,6 +1070,9 @@ html {
     font-size: 32px;
     line-height: 48px;
   }
+  .about {
+    padding-top: 100px;
+  }
   .about__subtitle {
     font-size: 30px;
   }
@@ -1058,6 +1088,9 @@ html {
   }
   .about__skills {
     grid-template: repeat(1, minmax(115px, auto))/repeat(1, 300px);
+  }
+  .resume {
+    padding-top: 110px;
   }
   .resume__subtitle {
     font-size: 30px;
@@ -1078,6 +1111,9 @@ html {
   .resume__item:before {
     top: 62px;
   }
+  .skills {
+    padding-top: 80px;
+  }
   .skills .title__section-subtitle {
     font-size: 30px;
     line-height: 48px;
@@ -1087,7 +1123,10 @@ html {
   }
   .skills__ratings {
     grid-template-columns: repeat(2, 240px);
-    padding-top: 115px;
+    padding-top: 110px;
+  }
+  .portfolio {
+    padding-top: 110px;
   }
   .portfolio .title__section-subtitle {
     font-size: 30px;
@@ -1105,11 +1144,9 @@ html {
   .portfolio__wrapper img {
     width: 250px;
     height: 250px;
-    -o-object-fit: cover;
-       object-fit: cover;
   }
   .price {
-    padding: 115px 20px 0 20px;
+    padding: 110px 30px 0 30px;
   }
   .price__wrapper {
     margin-top: 50px;
@@ -1117,6 +1154,9 @@ html {
   }
   .price__item:before {
     left: -8.3%;
+  }
+  .contacts {
+    padding: 110px 0 90px 0;
   }
   .contacts__subtitle {
     font-size: 30px;
@@ -1185,6 +1225,9 @@ html {
   .about__skills-item {
     grid-template-columns: 40px 177px;
   }
+  .resume {
+    padding-top: 105px;
+  }
   .resume__subtitle {
     font-size: 28px;
     line-height: 36px;
@@ -1211,6 +1254,9 @@ html {
   .resume__item-icon {
     top: 40px;
   }
+  .skills {
+    padding-top: 50px;
+  }
   .skills .title__section-subtitle {
     font-size: 28px;
     margin-top: 9px;
@@ -1227,7 +1273,11 @@ html {
     padding: 25px 25px 25px 25px;
   }
   .skills__ratings {
+    padding-top: 100px;
     grid-template-columns: repeat(1, 270px);
+  }
+  .portfolio {
+    padding-top: 100px;
   }
   .portfolio .title__section-subtitle {
     font-size: 28px;
@@ -1244,17 +1294,19 @@ html {
   .portfolio__wrapper img {
     width: 300px;
     height: 300px;
-    -o-object-fit: cover;
-       object-fit: cover;
   }
   .price {
-    padding: 110px 10px 0 10px;
+    padding: 100px 10px 0 10px;
   }
   .price .divider {
     margin: 26px auto 0 auto;
   }
   .price__wrapper {
+    margin-top: 45px;
     grid-template-columns: repeat(1, 266px);
+  }
+  .contacts {
+    padding: 100px 0 90px 0;
   }
   .contacts__subtitle {
     font-size: 28px;
