@@ -1334,6 +1334,7 @@ html {
   }
   .contacts #text {
     resize: vertical;
+      height: 160px;
   }
   .contacts__wrapper {
     padding: 0 15px 0 15px;
